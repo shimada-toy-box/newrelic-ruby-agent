@@ -15,7 +15,7 @@ module NewRelic::Agent
           :entity_guid => 'GUID',
           :'application_logging.local_decorating.enabled' => true,
           :'application_logging.enabled' => true,
-          :'instrumentation.logger' => 'auto',
+          :'instrumentation.logger' => 'auto'
         }
         NewRelic::Agent.config.add_config_for_testing(@enabled_config)
       end
